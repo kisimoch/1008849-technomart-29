@@ -1,0 +1,302 @@
+:root {
+  --black: #000000;
+  --basic-black: #293449;
+  --basic-dark: #1D2739;
+  --special-text-black: #32425C;
+  --basic-red: #EE3643;
+  --hover-red: #CA2C37;
+  --basic-green: #63A63E;
+  --basic-grey: #3D546F;
+  --basic-lightgrey: #EAEAEA;
+  --basic-greylight: #C5C5C5;
+  --basic-background: #F1F5F7;
+  --basic-line: #F9F5F0;
+  --basic-white: #FFFFFF;
+  --special-ylellow: #FFBF47;
+  --special-ylellow2: #FFC047;
+  --special-blue: #3BBCE3;
+  --special-lilac: #DC91D8;
+  --special-greenlight: #8ED78F;
+  --special-yellowlight: #FFD180;
+  --success: #5FBB2D;
+  --warning: #FFBF47;
+  --error: #BA2732;
+}
+
+body {
+  min-width: 940px;
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header {
+  background-color: rgba(0, 0, 0, 0.0001);
+}
+
+.main-navigation,
+.footer-navigation {
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--basic-white);
+  background-color: var(--basic-grey);
+}
+
+.top-line {
+  background-color: var(--basic-black);
+}
+
+.logo {
+  background-color: var(--basic-red);
+  text-transform: uppercase;
+  color: var(--basic-white);
+}
+
+.phone {
+  color: var(--basic-red);
+  text-transform: uppercase;
+}
+
+.button-entrance,
+.button-registry {
+  color: var(--black);
+  background-color: var(--basic-white);
+}
+
+.button-entrance:hover,
+.button-registry:hover,
+.button-entrance:focus,
+.button-registry:focus {
+  color: var(--basic-red);
+}
+
+.site-navigation,
+.footer-navigation-list1,
+.footer-navigation-list2 {
+  list-style: none;
+}
+
+.top-line a,
+.site-navigation a,
+.footer-navigation-list1 a {
+  color: var(--basic-white);
+}
+
+.footer-navigation-list2 a {
+  color: var(--special-yellowlight);
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  background-color: var(--basic-black);
+}
+
+.services-list {
+  list-style: none;
+  font-size: 24px;
+  line-height: 30px;
+  color: var(--basic-white);
+}
+
+.services-list a {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--basic-white);
+}
+
+.services-list a:hover,
+.services-list a:focus {
+  background-color: var(--basic-greylight);
+  mix-blend-mode: normal;
+  opacity: 0.3;
+}
+
+.materials {
+  background-color: var(--special-ylellow);
+}
+
+.tool {
+  background-color: var(--special-blue);
+}
+
+.technic {
+  background-color: var(--special-lilac);
+}
+
+.sale50 {
+  background-color: var(--special-greenlight);
+}
+
+.delivery {
+  background-color: var(--special-ylellow2);
+}
+
+.slider-list {
+  list-style: none;
+}
+
+.typical-button {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  background-color: var(--basic-red);
+}
+
+.typical-button:hover,
+.typical-button:focus {
+  background-color: var(--hover-red);
+}
+
+.slider-button,
+.slider-button1 {
+  list-style: none;
+}
+
+.popular-goods-line,
+.popular-brands-line {
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: var(--special-text-black);
+  background-color: var(--basic-line);
+}
+
+.popular-goods-list {
+  list-style: none;
+  font-size: 17px;
+  line-height: 18px;
+  font-family: PT Sans;
+  }
+
+  .buy-button {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Cuprum;
+    color: var(--basic-white);
+    background-color: var(--basic-green);
+    text-transform: uppercase;
+  }
+
+  .buy-button:hover,
+  .buy-button:focus {
+    background-color: var(--success);
+  }
+
+  .bookmark-button {
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Cuprum;
+    color: var(--special-text-black);
+    background-color: var(--basic-white);
+    border: 3px solid var(--basic-green);
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-transform: uppercase;
+  }
+
+  .bookmark-button:hover,
+  .bookmark-button:focus {
+    border: 3px solid var(--special-text-black);
+  }
+
+  .popular-brands-list {
+    list-style: none;
+  }
+
+  .advantages {
+    background-color: var(--basic-background);
+  }
+
+  .advantages-list {
+    list-style: none;
+  }
+
+  .advantages-list h3 {
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: var(--special-text-black);
+  }
+
+  .advantages-button {
+    font-size: 21px;
+    line-height: 30px;
+    color: var(--basic-white);
+    background-color: var(--special-text-black);
+  }
+
+  .advantages-button:hover,
+  .advantages-button:focus {
+    background-color: var(--basic-black);
+  }
+
+  .about-company h2,
+  .contacts h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  .footer-top-line,
+  .footer-navigation {
+    background-color: var(--special-text-black);
+  }
+
+  .footer-contacts,
+  .contacts-phone {
+    color: var(--basic-white);
+  }
+
+  .footer-line {
+    background-color: var(--basic-black);
+  }
+
+  .footer-line {
+    color: var(--basic-white);
+  }
+
+  .mail a,
+  .dev a {
+    color: var(--special-yellowlight);
+  }
+
+  .footer-navigation-list1 a:hover,
+  .footer-navigation-list1 a:focus,
+  .footer-navigation-list2 a:hover,
+  .footer-navigation-list2 a:focus,
+  .mail a:hover,
+  .mail a:focus,
+  .dev a:hover,
+  .dev a:focus {
+    text-decoration: underline;
+  }
+
+  .social-list {
+    list-style: none;
+  }
+
+  .social-item a{
+    color: var(--basic-white);
+  }
+
+  .social-item a:hover,
+  .social-item a:focus {
+    background-color: var(--basic-red);
+  }
+
