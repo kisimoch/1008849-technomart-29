@@ -300,11 +300,23 @@ img {
     line-height: 30px;
     color: var(--basic-white);
     background-color: var(--special-text-black);
+    border: none;
+    border-top: 1px solid var(--special-text-black);
+    border-bottom: 1px solid var(--special-text-black);
+    cursor: pointer;
   }
 
   .advantages-button:hover,
   .advantages-button:focus {
     background-color: var(--basic-black);
+  }
+
+  .advantages-button:disabled {
+    color: var(--special-text-black);
+    background-color: var(--basic-white);
+    border-top: 1px solid var(--basic-white);
+    border-bottom: 1px solid var(--basic-white);
+    pointer-events: none;
   }
 
   .about-company h2,
