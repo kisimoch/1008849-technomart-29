@@ -33,7 +33,7 @@
         </p>
       </div>
       <div>
-        <span class="user">Равшан Джамшутович</span>
+        <a class="user" href="blank.html">Равшан Джамшутович</a>
         <a class="exit" href="blank.html">Выход</a>
         <a class="my-orders" href="blank.html">Мои заказы</a>
         <a class="personal-account" href="blank.html">Личный кабинет</a>
@@ -43,7 +43,7 @@
       <ul class="site-navigation">
         <li><a href="index.html">Главная</a></li>
         <li><a href="blank.html">Компания</a></li>
-        <li><a>Каталог</a></li>
+        <li><a class="active-catalog">Каталог</a></li>
         <li><a href="blank.html">Новости</a></li>
         <li><a href="blank.html">Спецпредложения</a></li>
         <li><a href="blank.html">Доставка</a></li>
@@ -54,8 +54,8 @@
 
   <main class="center">
     <ul class="breadcrumb-list">
-      <li><a href="index.html">Главная</a></li>
-      <li><a>Каталог</a></li>
+      <li><a href="index.html" class="breadcrumb-home">Главная</a></li>
+      <li><a href="catalog.html">Каталог</a></li>
       <li><a href="blank.html">Инструмент</a></li>
       <li><a>Перфораторы</a></li>
     </ul>
@@ -67,13 +67,13 @@
     <section class="catalog">
       <h2>Список перфораторов</h2>
       <div class="sort">
-        <h3>Сортировка:</h3>
+        <h3 class="header-sort">Сортировка:</h3>
         <ul class="sort-list">
-          <li class="active-sort"><a href="#">По цене</a></li>
-          <li><a href="#">По типу</a></li>
-          <li><a href="#">По функционалу</a></li>
-          <li><a href="#">По возрастанию</a></li>
-          <li><a href="#">По убыванию</a></li>
+          <li><a class="active-sort" href="#">По цене</a></li>
+          <li><a class="sort-link" href="#">По типу</a></li>
+          <li><a class="sort-link" href="#">По функционалу</a></li>
+          <li><a class="sort-link" href="#">По возрастанию</a></li>
+          <li><a class="sort-link" href="#">По убыванию</a></li>
         </ul>
       </div>
       <ul class="goods-list">
@@ -198,10 +198,10 @@
         </li>
       </ul>
       <ul class="page-list">
-        <li class="active-page"><a>1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><button type="button" class="next-button">Следующая</button></li>
+        <li><a class="active-page">1</a></li>
+        <li><a href="#" class="page-2">2</a></li>
+        <li><a href="#" class="page-3">3</a></li>
+        <li><a href="#" class="next-button">Следующая</a></li>
       </ul>
     </section>
     <div class="info-block">
@@ -219,7 +219,7 @@
 
   <footer class="page-footer">
     <div class="footer-top-line">
-      <a class="logo"><img src="#" width="220" height="68" alt="Техномарт"></a>
+      <a href="index.html" class="logo"><img src="#" width="220" height="68" alt="Техномарт"></a>
       <!--Логотип в левом нижнем углу-->
       <div class="footer-contacts">
         <p>г.Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
