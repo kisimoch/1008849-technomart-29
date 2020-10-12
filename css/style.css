@@ -27,6 +27,11 @@
   --success: #5FBB2D;
   --warning: #FFBF47;
   --error: #BA2732;
+  --background-black: rgba(0, 0, 0, 0.0001);
+  --grey-transparent: rgba(255, 255, 255, 0.5);
+  --grey-transparent2: rgba(255, 255, 255, 0.3);
+  --grey-transparent3: rgba(197, 197, 197, 0.3);
+  --grey-transparent4: rgba(169, 169, 169, 0.3);
   --main-font: "Cuprum", "Arial", sans-serif;
   --second-font: "PT Sans", "Arial", sans-serif;
 }
@@ -53,7 +58,7 @@ img {
 }
 
 .main-header {
-  background-color: rgba(0, 0, 0, 0.0001);
+  background-color: var(--background-black);
 }
 
 .main-navigation,
@@ -86,11 +91,11 @@ img {
 .bookmarks:active,
 .basket:active {
   background-color: var(--black-click);
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--grey-transparent);
 }
 
 .search:active {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--grey-transparent);
 }
 .order {
   background-color: var(--basic-green);
@@ -103,7 +108,7 @@ img {
 
 .order:active {
   background-color: var(--basic-green);
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--grey-transparent);
 }
 
 .full {
@@ -139,7 +144,7 @@ img {
 
 .button-entrance:active,
 .button-registry:active {
-  background: rgba(0, 0, 0, 0.0001);
+  background: var(--background-black);
   color: var(--basic-greylight);
 }
 
@@ -237,18 +242,18 @@ img {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: var(--grey-transparent2);
   color: var(--basic-white);
 }
 
 .services-list a:hover,
 .services-list a:focus {
-  background-color: rgba(197, 197, 197, 0.3);
+  background-color: var(--grey-transparent3);
 }
 
 .services-list a:active,
 .services-list a:active {
-  background-color: rgba(169, 169, 169, 0.3);
+  background-color: var(--grey-transparent4);
 }
 
 .services-list h3 {
