@@ -662,3 +662,22 @@ img {
   background-color: var(--basic-red);
 }
 
+.slider-pagination {
+  background-color: var(--basic-black);
+  list-style: none;
+}
+
+.slider-bullet {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px var(--basic-white);
+  background-color: var(--basic-white);
+}
+
+.slider-bullet--active {
+  background-color: var(--basic-red);
+}
