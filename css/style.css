@@ -57,7 +57,19 @@ img {
   height: auto;
 }
 
+.page {
+  height: 100%;
+}
+
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
 .main-header {
+  display: grid;
   background-color: var(--background-black);
 }
 
@@ -74,8 +86,16 @@ img {
   color: var(--basic-red);
 }
 
-.top-line {
+.top-line-bar {
   background-color: var(--basic-black);
+}
+
+.top-line {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content min-content max-content;
+  width: 940px;
+  margin: 0px auto;
+  padding: 9px 10px;
 }
 
 .logo {
@@ -115,6 +135,18 @@ img {
   background-color: var(--basic-red);
 }
 
+.info-line {
+  display: grid;
+  grid-template-columns: min-content 1fr min-content min-content;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.info-line-contacts {
+  justify-self: center;
+}
+
 .phone {
   font-size: 21px;
   line-height: 30px;
@@ -146,6 +178,13 @@ img {
 .button-registry:active {
   background: var(--background-black);
   color: var(--basic-greylight);
+}
+
+.site-navigation {
+  display: grid;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 .user {
@@ -229,6 +268,17 @@ img {
 
 .breadcrumb-list .breadcrumb-home {
   color: var(--home-color);
+}
+
+.center {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .services-list {
@@ -448,6 +498,28 @@ img {
   font-family: var(--second-font);
 }
 
+.popular-goods-line {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+
+.popular-brands-line  {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+}
+
+.popular-brands-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.popular-goods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+
 .popular-goods-list h3,
 .goods-list h3 {
   font-weight: bold;
@@ -506,6 +578,8 @@ img {
 }
 
 .advantages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: var(--basic-background);
 }
 
@@ -562,6 +636,11 @@ img {
   pointer-events: none;
 }
 
+.index-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .about-company h2,
 .contacts h2 {
   font-size: 30px;
@@ -597,6 +676,46 @@ img {
   font-size: 13px;
   line-height: 24px;
 }
+
+.page-footer {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer-top-line {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+}
+
+.footer-contacts {
+  order: 1;
+}
+
+.footer-line {
+  display: grid;
+  grid-template-columns: 1fr 1fr min-content min-content;
+}
+
+.copyright {
+  width: 227px;
+  margin: 0px;
+}
+
+.social-list {
+  width: 134px;
+  justify-self: center;
+}
+
+.mail {
+  width: 137px;
+}
+
+.dev {
+  width: 98px;
+  justify-self: end;
+}
+
 
 .footer-top-line,
 .footer-navigation {
