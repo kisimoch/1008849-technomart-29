@@ -113,6 +113,11 @@ img {
   padding: 9px 10px;
 }
 
+.user-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .logo {
   background-color: var(--basic-red);
   text-transform: uppercase;
@@ -272,6 +277,8 @@ img {
 
 .breadcrumb-list {
   list-style: none;
+  display: grid;
+  grid-template-columns: max-content max-content max-content max-content;
 }
 
 .breadcrumb-list a {
@@ -412,6 +419,14 @@ img {
   color: var(--special-text-black);
   background-color: var(--header-grey);
 }
+
+.goods-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+
 
 .header-filter {
   font-family: var(--second-font);
@@ -731,7 +746,8 @@ img {
   line-height: 18px;
 }
 
-.info-block {
+
+.info-block-bar {
   background-color: var(--basic-background);
 }
 
