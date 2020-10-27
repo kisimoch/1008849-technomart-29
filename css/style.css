@@ -201,9 +201,10 @@ img {
 }
 
 .site-navigation {
-  display: grid;
-  width: 940px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 834px;
+  margin: 16px 53px 20px;
   padding: 0 10px;
 }
 
@@ -782,6 +783,7 @@ img {
 }
 
 .social-list {
+  display: flex;
   width: 134px;
   justify-self: center;
 }
@@ -840,6 +842,16 @@ img {
   text-decoration: none;
 }
 
+.footer-navigation-list1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-navigation-list2 {
+  display: flex;
+  justify-content: space-between;
+}
+
 .mail a:active,
 .dev a:active {
   text-decoration: none;
@@ -858,6 +870,10 @@ img {
 .social-item a:focus,
 .social-item a:active {
   background-color: var(--basic-red);
+}
+
+.social-item {
+  padding: 14px 9px 15px;
 }
 
 .slider-pagination {
